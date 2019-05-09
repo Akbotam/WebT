@@ -3,7 +3,6 @@ import { ProviderService } from '../shared/services/provider.service';
 import { ITaskLong, ITaskShort, ITaskList } from '../shared/models';
 import { ActivatedRoute } from '@angular/router';
 import { Location } from '@angular/common';
-import { AuthService } from '../shared/services/auth.service';
 
 @Component({
   selector: 'app-task-list-tasks',
@@ -25,11 +24,11 @@ export class TaskListTasksComponent implements OnInit {
     private provider: ProviderService,
     private route: ActivatedRoute,
     private location: Location,
-    private auth: AuthService
+
     ) { }
 
   ngOnInit() {
-    if(this.auth.isAuthenticated){
+    {
     this.id = parseInt(this.route.snapshot.paramMap.get('id'))
     if(this.id){
       this.provider.getTaskListTasks(this.id).then(res => {

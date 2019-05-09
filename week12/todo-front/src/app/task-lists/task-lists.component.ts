@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ProviderService } from '../shared/services/provider.service';
 import { ITaskList } from '../shared/models';
 import { Location } from '@angular/common';
-import { AuthService } from '../shared/services/auth.service';
+
 
 @Component({
   selector: 'app-task-lists',

@@ -1,7 +1,7 @@
 import {EventEmitter, Injectable} from '@angular/core';
 import {MainService} from './main.service';
 import {HttpClient} from '@angular/common/http';
-import { ITaskList, ITaskShort, ITaskLong, IAuthResponse, ITaskNew } from '../models';
+import { ITaskList, ITaskShort, ITaskLong, ITaskNew } from '../models';
 
 @Injectable({
   providedIn: 'root'

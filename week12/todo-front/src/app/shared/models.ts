@@ -1,13 +1,6 @@
-export interface IUser {
-    id: number,
-    username: string,
-    email: string
-}
-
 export interface ITaskList {
     id: number,
-    name: string,
-    owner: IUser
+    name: string
 }
 
 export interface ITaskShort {
@@ -24,9 +17,7 @@ export interface ITaskLong {
     status: string
 }
 
-export interface IAuthResponse {
-    token: string;
-}
+
 
 export interface ITaskNew {
     id: number,
@@ -34,6 +25,5 @@ export interface ITaskNew {
     created_at: string,
     due_on: string,
     status: string,
-    task_list: ITaskList,
-    owner: IUser
+    task_list: ITaskList
 }

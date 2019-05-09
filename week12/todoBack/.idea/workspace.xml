@@ -2,86 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a48a5a1-3ca3-4238-a260-eb357d2cb34b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/angular.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/e2e/protractor.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/e2e/src/app.e2e-spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/e2e/src/app.po.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/e2e/tsconfig.e2e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/src/app/app-routing.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/src/app/app.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/src/app/app.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/src/app/app.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/src/app/app.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/src/app/app.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/src/app/base/base.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/src/app/base/base.component.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/src/app/base/base.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/src/app/base/base.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/src/app/shared/models.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/src/app/shared/services/main.service.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/src/app/shared/services/main.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/src/app/shared/services/provider.service.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/src/app/shared/services/provider.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/src/app/task-detail/task-detail.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/src/app/task-detail/task-detail.component.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/src/app/task-detail/task-detail.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/src/app/task-detail/task-detail.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/src/app/task-list-detail/task-list-detail.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/src/app/task-list-detail/task-list-detail.component.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/src/app/task-list-detail/task-list-detail.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/src/app/task-list-detail/task-list-detail.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/src/app/task-list-tasks/task-list-tasks.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/src/app/task-list-tasks/task-list-tasks.component.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/src/app/task-list-tasks/task-list-tasks.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/src/app/task-list-tasks/task-list-tasks.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/src/app/task-lists/task-lists.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/src/app/task-lists/task-lists.component.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/src/app/task-lists/task-lists.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/src/app/task-lists/task-lists.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/src/assets/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/src/browserslist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/src/environments/environment.prod.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/src/environments/environment.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/src/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/src/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/src/karma.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/src/main.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/src/polyfills.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/src/styles.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/src/test.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/src/tsconfig.app.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/src/tsconfig.spec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/src/tslint.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo-front/tslint.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todoBack/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todoBack/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todoBack/.idea/todoBack.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todoBack/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todoBack/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todoBack/api/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todoBack/api/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todoBack/api/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todoBack/api/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todoBack/api/migrations/0002_auto_20190417_1118.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todoBack/api/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todoBack/api/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todoBack/api/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todoBack/api/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todoBack/api/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todoBack/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todoBack/manage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todoBack/todoBack/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todoBack/todoBack/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todoBack/todoBack/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todoBack/todoBack/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todo-front/src/app/AuthInterceptor.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todo-front/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../todo-front/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todo-front/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../todo-front/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todo-front/src/app/auth/login/login.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todo-front/src/app/auth/login/login.component.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todo-front/src/app/auth/login/login.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todo-front/src/app/auth/login/login.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todo-front/src/app/auth/register/register.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todo-front/src/app/auth/register/register.component.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todo-front/src/app/auth/register/register.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todo-front/src/app/auth/register/register.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todo-front/src/app/base/base.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../todo-front/src/app/base/base.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todo-front/src/app/shared/models.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../todo-front/src/app/shared/models.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todo-front/src/app/shared/services/auth.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todo-front/src/app/shared/services/auth.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todo-front/src/app/shared/services/provider.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../todo-front/src/app/shared/services/provider.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todo-front/src/app/task-detail/task-detail.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../todo-front/src/app/task-detail/task-detail.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todo-front/src/app/task-list-detail/task-list-detail.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../todo-front/src/app/task-list-detail/task-list-detail.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todo-front/src/app/task-list-tasks/task-list-tasks.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../todo-front/src/app/task-list-tasks/task-list-tasks.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todo-front/src/app/task-lists/task-lists.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../todo-front/src/app/task-lists/task-lists.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth_/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../week13/todo/auth_/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth_/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../week13/todo/auth_/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth_/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../week13/todo/auth_/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth_/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../week13/todo/auth_/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth_/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../week13/todo/auth_/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth_/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../week13/todo/auth_/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth_/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../week13/todo/auth_/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth_/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../week13/todo/auth_/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth_/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../week13/todo/auth_/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoBack/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/todoBack/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoBack/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/todoBack/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -124,36 +78,38 @@
     <session id="-1517798419">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.38" value="1" />
           <entry key="project.open.time.40" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="27" />
+          <entry key="py" value="38" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="27" />
+          <entry key="Python" value="38" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="674" />
+          <entry key="py" value="683" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="674" />
+          <entry key="Python" value="683" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -171,15 +127,15 @@
         <option value="$PROJECT_DIR$/api/admin.py" />
         <option value="$PROJECT_DIR$/api/views.py" />
         <option value="$PROJECT_DIR$/api/views/cbv.py" />
-        <option value="$PROJECT_DIR$/api/views/fbv.py" />
-        <option value="$PROJECT_DIR$/api/urls.py" />
         <option value="$PROJECT_DIR$/auth_/serializers.py" />
         <option value="$PROJECT_DIR$/auth_/urls.py" />
         <option value="$PROJECT_DIR$/auth_/views.py" />
-        <option value="$PROJECT_DIR$/todoBack/urls.py" />
         <option value="$PROJECT_DIR$/todoBack/settings.py" />
-        <option value="$PROJECT_DIR$/api/models.py" />
+        <option value="$PROJECT_DIR$/todoBack/urls.py" />
         <option value="$PROJECT_DIR$/api/serializers.py" />
+        <option value="$PROJECT_DIR$/api/urls.py" />
+        <option value="$PROJECT_DIR$/api/views/fbv.py" />
+        <option value="$PROJECT_DIR$/api/models.py" />
       </list>
     </option>
   </component>
@@ -195,7 +151,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -208,10 +163,22 @@
               <item name="todoBack" type="462c0819:PsiDirectoryNode" />
               <item name="api" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="todoBack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="todoBack" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="todoBack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="todoBack" type="462c0819:PsiDirectoryNode" />
+              <item name="todoBack" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -318,13 +285,6 @@
     <entry file="file://$PROJECT_DIR$/api/tests.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/views/cbv.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -339,40 +299,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/views/fbv.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/auth_/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="317">
           <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth_/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth_/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todoBack/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todoBack/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="52" lean-forward="true" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="17">
+          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
@@ -381,46 +360,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api/serializers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        <state relative-caret-position="85">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
-            <marker date="1556182160105" expanded="true" signature="173:178" ph="..." />
-            <marker date="1556182160105" expanded="true" signature="660:665" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/todoBack/settings.py">
+    <entry file="file://$PROJECT_DIR$/api/views/fbv.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="47" column="14" lean-forward="true" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/todoBack/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auth_/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        <state relative-caret-position="272">
+          <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
           <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auth_/serializers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
+            <element signature="e#0#44#0" expanded="true" />
           </folding>
         </state>
       </provider>
