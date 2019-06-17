@@ -56,9 +56,9 @@ MIDDLEWARE = [
     'django.middleware.common.CommonMiddleware',
 ]
 
-#CORS_ORIGIN_WHITELIST = (
-#   'localhost:4200',
-#)
+CORS_ORIGIN_WHITELIST = (
+   'localhost:4200',
+)
 
 ROOT_URLCONF = 'todoBack.urls'
 

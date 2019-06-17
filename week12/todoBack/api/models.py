@@ -1,13 +1,15 @@
 from django.db import models
 from django.contrib.auth.models import User
 
+
 class TaskListManager(models.Manager):
     def for_user(self, user):
         return self.filter(owner=user)
 
+
 class TaskList(models.Model):
-    name = models.CharField(max_length=200)
-    owner = models.ForeignKey(User, on_delete=models.CASCADE, default=2)
+    name = models.CharField('Name', max_length=200)
+    owner = models.ForeignKey(User, on_delete=models.CASCADE, default=1)
 
     objects = TaskListManager()
 
@@ -25,13 +27,14 @@ class TaskManager(models.Manager):
     def for_user(self, user):
         return self.filter(owner=user)
 
+
 class Task(models.Model):
-    name = models.CharField(max_length=200)
-    created_at = models.DateTimeField()
-    due_on = models.DateTimeField()
-    status = models.CharField(max_length=200)
+    name = models.CharField('Name', max_length=200)
+    created_at = models.DateTimeField('Created', auto_now_add=True, null=False)
+    due_on = models.DateTimeField('Due on', null=False)
+    status = models.CharField('Status', max_length=200)
     task_list = models.ForeignKey(TaskList, on_delete=models.CASCADE, related_name='tasks')
-    owner = models.ForeignKey(User, on_delete=models.CASCADE, default=2)
+    owner = models.ForeignKey(User, on_delete=models.CASCADE, default=1)
 
     objects = TaskManager()
 

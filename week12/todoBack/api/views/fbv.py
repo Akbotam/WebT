@@ -8,7 +8,7 @@ from api.serializers import TaskListSerializer, TaskSerializer
 @api_view(['GET', 'POST'])
 def task_lists(request):
     if request.method == 'GET':
-        lists = TaskList.objects.for_user(request.user)
+        lists = TaskList.objects.all()
         serializer = TaskListSerializer(lists, many=True)
         return Response(serializer.data)
     elif request.method == 'POST':
@@ -22,7 +22,7 @@ def task_lists(request):
 @api_view(['GET', 'PUT', 'DELETE'])
 def task_list_detail(request, pk):
     try:
-        task_list = TaskList.objects.for_user(request.user).get(id=pk)
+        task_list = TaskList.objects.get(id=pk)
     except TaskList.DoesNotExist as e:
         return Response({'error': f'{e}'}, status=status.HTTP_404_NOT_FOUND)
 
@@ -43,7 +43,7 @@ def task_list_detail(request, pk):
 @api_view(['GET', 'POST'])
 def task_list_tasks(request, pk):
     try:
-        task_list = TaskList.objects.for_user(request.user).get(id=pk)
+        task_list = TaskList.objects.get(id=pk)
     except TaskList.DoesNotExist as e:
         return Response({'error': f'{e}'}, status=status.HTTP_404_NOT_FOUND)
 
@@ -62,7 +62,7 @@ def task_list_tasks(request, pk):
 @api_view(['GET', 'PUT', 'DELETE'])
 def task_detail(request, pk):
     try:
-        task = Task.objects.for_user(request.user).get(id=pk)
+        task = Task.objects.get(id=pk)
     except TaskList.DoesNotExist as e:
         return Response({'error': f'{e}'}, status=status.HTTP_404_NOT_FOUND)
 
